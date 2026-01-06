@@ -32,7 +32,7 @@ export default function About() {
           >
             Merriam-Webster word of the year
           </Link>{" "}
-          for 2025 due to AI content's increasing saturation of social media platforms. <em>Last Week Tonight</em> did a full episode that explains the social problems behind it well. The video is 30 minutes long and contains adult language, but I'd recommend it if you have the time. My suspicion is that you want to keep reading at the moment.
+          for 2025 due to AI content's increasing saturation of social media platforms. <em>Last Week Tonight</em> did a full episode that explains the social problems that AI slop introduces. The video is 30 minutes long and contains adult language, but I'd recommend it if you have the time. My suspicion is that you want to keep reading right now.
         </p>
         <div className="my-8 aspect-video w-full overflow-hidden rounded-lg">
           <iframe
@@ -88,7 +88,7 @@ export default function About() {
         
         <h2 className="mb-4 mt-10 text-2xl font-bold text-gray-900 sm:text-3xl">Conclusion</h2>
         <p className="mb-6 text-base leading-7 text-gray-700 sm:text-lg">
-          The amount of AI slop out there is likely to continue increasing. It's up to you to decide if you want to accept it or look for solutions. We're here to help.
+          The amount of AI slop out there is likely to continue increasing. It's up to you to decide if you want to accept it. We're here to help.
         </p>
       </main>
     </div>
