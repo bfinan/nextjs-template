@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Project",
-  description: "Project",
+  title: "Slopblock Zero",
+  description: "Slopblock Zero",
 };
 
 export default function RootLayout({
@@ -13,8 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        {children}
+      <body className="flex min-h-screen flex-col antialiased">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
+        <Analytics />
       </body>
     </html>
   );
