@@ -1,4 +1,5 @@
-# Gets your repo up to date
+#!/bin/bash
+# https://www.youtube.com/watch?v=LIQ_PcH3YuU
 
 git -c http.sslVerify=false pull
 git add .
